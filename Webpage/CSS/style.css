@@ -1,0 +1,312 @@
+*
+{
+	margin:0;
+	padding: 0;
+}
+body
+{
+
+	font-family: sans-serif;
+}
+
+
+#nav-bar
+{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+.navbar
+{
+	background-image: linear-gradient(to right, #68DAD1, #5f1782);
+	padding: 0 !important;
+}
+.navbar-brand img
+{
+	height: 40px;
+	padding-left: 20 px;
+}
+.navbar:after
+{
+	content:"";
+	position:relative;
+	top:0%;
+	bottom:0%;
+	left:0;
+	right:0;
+	opacity:.3;
+	z-index:-1;
+	background:linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
+}
+.navbar:before{
+	content:"";
+	position:absolute;
+	top:0%;
+	bottom:0%;
+	left:0;
+	right:0;
+	opacity:.3;
+	z-index:-1;
+	background:linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
+}
+
+.navbar-nav li
+{
+	padding: 0 10px;
+	
+}
+.navbar-nav li a
+{
+	color: #fff !important;
+	font-weight:600;
+	float: right;
+	text-align: left;
+}
+.fa-bars
+{
+	color: #fff;
+	font-size: 30px !important;
+}
+.navbar-toggler
+{
+	outline: none !important;
+}
+/*-----------------------banner section----------------------*/
+#banner
+{
+	background-image: linear-gradient(to right, #68DAD1, #5f1782);
+	color: #fff;
+	padding-top: 10%;
+}
+
+.promo-title
+{
+	font-size: 40px;
+	font-weight: 400;
+	margin-top: 100px;
+}	
+#banner a
+{
+	color: #fff;
+	text-decoration: none;
+}
+
+/*-------------------------FIXTURES SECTION-----------------------*/
+
+
+.fixtures
+{
+	width:100%;
+	height:100vh;
+	padding:50px;
+	position:relative;
+}
+.fixtures:before{
+	content:"";
+	position:absolute;
+	top:0%;
+	bottom:0%;
+	left:0;
+	right:0;
+	z-index:-1;
+	background:linear-gradient(180deg, #16c9f6 55%, #fff 0%);
+}
+.card{
+	transition: 0.4s ease;
+
+}
+.card-header{
+	font-size: 1.6rem;
+	font-weight: bold;
+	background: #fff!important;
+	padding:25px 9!important;
+
+}
+.card-body
+{
+	padding:30px 0px!important;
+
+}
+.card-footer{
+	background:white!important;
+	
+}
+
+
+.fixtures-img
+{
+	font-size:40px;
+	line-height: 1;
+	color:#606060;
+	width: 100px;
+	margin-top:20px;
+	
+}
+.fixtures h4
+{
+	padding: 5px;
+	margin-top: 25px;
+	text-transform: uppercase;
+}
+.fixtures:before{
+	content:"";
+	position:absolute;
+	top:0%;
+	bottom:0%;
+	left:0;
+	right:0;
+	z-index:-1;
+	background:linear-gradient(160deg, #16c9f6 55%, #fff 0%);
+}
+.title::before
+{
+	content:'';
+	background:#7b1798;
+	height: 5px;
+	width:200px;
+	margin-left:auto;
+	margin-right:auto;
+	display: block;
+	transform: translateY(63px);
+}
+.title::after
+{
+	content:'';
+	background:#7b1798;
+	height: 10px;
+	width:50px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 40px;
+	display: block;
+	transform: translateY(10px);
+}
+
+
+#fixtures .btn-primary
+{
+	box-shadow:none;
+	padding: 8px, 25px;
+	border: none;
+	border-radius: 20px;
+	background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+
+/*-----------------ICC events section------------------*/
+
+#icc-events
+{
+	background:#f8f9fa;
+	padding-bottom: 50px;
+	padding-top: 50px;
+	
+}
+.icc-events-title
+{
+	font-size:40px;
+	font-weight:600;
+	margin-top:8%;
+}
+
+#icc-events .btn-primary
+{
+	box-shadow:none;
+	padding: 8px, 25px;
+	border: none;
+	border-radius: 20px;
+	background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+/*-----------------------------TEAMS Section--------------------*/
+
+
+#teams
+{
+	background:#f8f9fa;
+	padding-bottom: 50px;
+	padding-top: 50px;
+	
+}
+.teams-title
+{
+	font-size:40px;
+	font-weight:600;
+	margin-top:8%;
+}
+
+
+#teams .btn-primary
+{
+	box-shadow:none;
+	padding: 8px, 25px;
+	border: none;
+	border-radius: 20px;
+	background-image: linear-gradient(to right, #a517ba, #5f1782);
+
+}
+
+
+
+<!------------------------------------Social media--------------------------------->
+
+
+
+#social-media{
+
+	background: #f8f9fa;
+	padding: 100px 0;
+}
+
+#social-media p
+{
+	font-size:36px;
+	font-weight:600;
+	margin-bottom:30px;
+}
+
+.social-icons img
+{
+	width:60px;
+	transition:0.5s;
+}
+
+.social-icons a:hover img
+{
+	transform: translateY(-10px);
+}
+
+#footer {
+	background-image: linear-gradient(to right, #766AEA, #5f1782);
+	color:#fff;
+}
+
+.footer-img
+{
+	width:100%;
+}
+
+.footer-box
+{
+	padding:20px;
+}
+
+
+.footer-box img
+{
+	width:120px;
+	margin-bottom: 20px;
+}
+
+.footer-box .fa
+{
+	margin-right:8px;
+	font-size:25px;
+	height:40px;
+	width:40px;
+	text-align:center;
+	padding-top:7px;
+	border-radius:2px;
+	background-color:linear-gradient(to right, #73AADA, #5f1782);
+	
+}
